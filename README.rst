@@ -18,6 +18,7 @@ Add it to your ``INSTALLED_APPS``::
     INSTALLED_APPS = (
         ...
         'runprocess'
+        # must be placed before 'django.contrib.staticfiles'
     )
 
 Add the commands you want to be executed in the ``RUNPROCESS_PROCESSES``
